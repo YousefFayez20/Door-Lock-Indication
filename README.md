@@ -9,7 +9,6 @@ Welcome to the **Door Lock Indication Project**! This project is designed to det
 - 💡 **Controls an LED indicator** based on door status.
 - 🏗 **Built with AUTOSAR architecture** for modularity and scalability.
 - ⏱ **Handles real-time events** with **RTE tasks**.
-- 🎯 **Optimized OS task scheduling** for efficient execution.
 
 ## 🏛 System Architecture
 ### 📌 Main Components
@@ -29,7 +28,6 @@ Welcome to the **Door Lock Indication Project**! This project is designed to det
 - **Application Layer:** Contains the SWCs for **sensor reading** and **LED control**.
 - **RTE (Runtime Environment):** Manages communication between software components.
 - **BSW (Basic Software):** Handles low-level operations like **I/O handling and OS management**.
-- **OS Module:** Manages **task scheduling** and **real-time event handling**.
 
 ## 🔧 How It Works
 ### 🔄 RTE Task Execution
@@ -46,7 +44,6 @@ Welcome to the **Door Lock Indication Project**! This project is designed to det
 ### ⚙ OS Configuration
 - 🕒 **10ms System Counter** to trigger cyclic tasks.
 - 🎯 **RTE Events** manage real-time communication.
-- 🔔 **Task Alarms** activate sensor reading periodically.
 
 ## 📋 Requirements
 ### 🖥 Hardware
@@ -59,34 +56,14 @@ Welcome to the **Door Lock Indication Project**! This project is designed to det
 - 🖥 **Embedded C Compiler** with AUTOSAR support.
 - 🛠 **Debugging Tools** for system testing.
 
-## 🚀 Getting Started
-### 🏗 Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/YousefFayez20/Door-Lock-Indication.git
-   ```
-2. Configure **AUTOSAR OS** and **RTE Components** using the toolchain.
-3. Compile the project using an **AUTOSAR-compliant compiler**.
-4. Flash the generated binary onto the **microcontroller**.
 
 ## 🎯 How to Use
 - **🚪 Open the Door → 💡 LED Turns ON**
 - **🔒 Close the Door → 💡 LED Turns OFF**
 - **⏳ Runs in real-time, updating every 10ms**
 
-## 🔮 Future Enhancements
-- 🔄 Support for **multiple doors**.
-- 📡 Integration with **CAN/LIN communication**.
-- 🛑 Adding **error handling and fault detection**.
-
 ## 📚 References
 - 🌐 [AUTOSAR Official Website](https://www.autosar.org)
 - 🎓 [Learn-In-Depth Embedded Systems](https://www.learn-in-depth.com)
 - 📘 [AUTOSAR OS Specifications](https://www.autosar.org/standards/classic-platform/)
-- 🏗 [OSEK/VDX Operating System](https://www.osek-vdx.org/)
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-📩 **Questions?** Feel free to contribute or raise an issue on GitHub! 🚀
