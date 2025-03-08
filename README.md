@@ -1,5 +1,5 @@
 
-# 🚪 Door Lock Indication Project 🔒
+#  Door Lock Indication Project 🔒
 
 ## 📌 Overview
 Welcome to the **Door Lock Indication Project**! This project is designed to detect whether a vehicle's door is open or closed and control an **LED indicator** accordingly. It's built using **AUTOSAR standards**, ensuring a modular, scalable, and structured embedded system.
