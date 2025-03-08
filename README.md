@@ -1,4 +1,4 @@
-```markdown
+
 # 🚪 Door Lock Indication Project 🔒
 
 ## 📌 Overview
